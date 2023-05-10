@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "11.0"
   s.tvos.deployment_target = "11.0"
   s.watchos.deployment_target = "4.0"
-  s.source   = { :git => "https://github.com/Kitura/BlueECC.git", :tag => s.version }
+  s.source   = { :git => "https://github.cerner.com/careaware-connect/Kitura-BlueECC-ios-lib.git", :tag => s.version }
   s.source_files = "Sources/**/*.swift"
   s.swift_versions = '5.2'
 end
