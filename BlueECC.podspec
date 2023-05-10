@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.author     = "IBM & Kitura project authors"
   s.module_name  = 'CryptorECC'
   s.requires_arc = true
-  s.osx.deployment_target = "10.13"
-  s.ios.deployment_target = "11.0"
-  s.tvos.deployment_target = "11.0"
-  s.watchos.deployment_target = "4.0"
+  s.osx.deployment_target = "11.5"
+  s.ios.deployment_target = "14.5"
+  s.tvos.deployment_target = "14.5"
+  s.watchos.deployment_target = "7.5"
   s.source   = { :git => "https://github.cerner.com/careaware-connect/Kitura-BlueECC-ios-lib.git", :tag => s.version }
   s.source_files = "Sources/**/*.swift"
   s.swift_versions = '5.2'
